@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepanshu Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">DK</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Deepanshu Kumar</h1>
+            <p class="hero-subtitle">Full Stack Developer | CSE Student</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="https://drive.google.com/uc?export=download&id=1LRBLN3uTEBvfNusSonoUMYWMENBfBj4V" class="btn btn-secondary" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a 3rd year Computer Science student passionate about Full Stack Development and AI-based systems. I love building innovative solutions that make a difference.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Other</h3>
+                    <p>DSA, Problem Solving, Git</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Smart Attendance System</h3>
+                    <p>Face Recognition based attendance tracking system</p>
+                </div>
+                <div class="project-card">
+                    <h3>Payment Dashboard</h3>
+                    <p>Full Stack payment management dashboard</p>
+                </div>
+                <div class="project-card">
+                    <h3>Leaf Classification</h3>
+                    <p>ML-based leaf species classification system</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p id="responseMessage" class="response-message"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Deepanshu Kumar. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
